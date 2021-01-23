@@ -1,6 +1,7 @@
 /******Common Style******/
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #363958;
+    font-family: 'Bebas Neue', cursive;
 }
 .highlight {
     color: #FA804C;
@@ -9,7 +10,7 @@ h1, h2, h3 {
 /**********Header Section**********/
 .header-section {
     background-color: #fffbf0;
-    padding: 20px 0;
+    padding: 20px 0 40px;
 }
 .header-logo img {
     max-width: 300px;
@@ -26,7 +27,6 @@ h1, h2, h3 {
 }
 /******Slider******/
 .header-slider h1 {
-    font-family: 'Bebas Neue', cursive;
     font-size: 80px;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -45,4 +45,37 @@ button.buy-now-btn:hover {
 }
 button.buy-now-btn img {
     width: 32px;
+}
+/*****Product Section*****/
+.products-section {
+    padding: 30px 0;
+}
+.products-section h2.section-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.products-section .card {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.07);
+}
+.products-section .card img.product-image {
+    background-color: #efefef;
+    border-radius: 20px;
+}
+.products-section h4.product-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    margin: 12px 0;
+}
+.card-footer {
+    background-color: transparent;
+    border: none;
+}
+h2.product-price {
+    font-size: 48px;
+    font-weight: 500;
+    color: #fa804c;
+    margin: 0;
 }
